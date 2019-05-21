@@ -66,7 +66,7 @@
                     <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                         <h3 class="content-subhead">
                              <img src="img/info.png">
-                            Consultas
+                            Consultas Academicas
                         </h3>
                         <p>
                             Documentos ou cartazes publicitários 
