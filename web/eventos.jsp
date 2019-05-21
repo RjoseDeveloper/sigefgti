@@ -54,9 +54,7 @@
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1-3">
                       
-                        <input type="hidden" name="id" value="${eventos.idevento}">
-                       
-                      
+                        <input type="hidden" name="id" value="">
                         <label for="name">Nome do Evento</label>
                         <input name="nome" id="nome" class="pure-u-23-24" placeholder="Evento.." type="text" value="${eventos.nome}" 
                                required="yes" style="border-radius: 30px;">
