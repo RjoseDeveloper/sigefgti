@@ -1,6 +1,5 @@
-# sigefgti
+# SIGEFGTI- Sistema de gestao de eventos da FGTI
 <hr>
-Sistema de gestao de eventos da FGTI
 <h3>Passos para configracao</h3>
 1- Instalar Netbeans Junto com apache Tomcate 8.0.0.9<br>
 2- Criar conta no github<br>
