@@ -227,7 +227,7 @@
     <br><br>
 </head>
 <body>
-   
+
     <div class="pure-g">
 
         <img src="img/direcao.jpg" style="width: 100%; height: 190px;"> 
@@ -238,52 +238,76 @@
     <div class="container">
         <div class="tab">
 
-            <button class="tablinks" onclick="openCity(event, 'criar')">EVENTO</button>
-            <button class="tablinks" onclick="openCity(event, 'consultar')">ACTIVIDADE</button>
-            <button class="tablinks" onclick="openCity(event, 'funcionrio')">DEPARTAMENTO</button>
-            <button class="tablinks" onclick="openCity(event, 'gerir')">PARTICIPANTE</button>
-<!--            <button class="tablinks" onclick="openCity(event, 'dis')">Disciplinas</button>
-            <button class="tablinks" onclick="openCity(event, 'docs')">Docentes</button>-->
-            
+            <button class="tablinks" onclick="openCity(event, 'user')">UTILIZADORES</button>
+            <button class="tablinks" onclick="openCity(event, 'event')">EVENTO</button>
+            <button class="tablinks" onclick="openCity(event, 'activity')">ACTIVIDADE</button>
+            <button class="tablinks" onclick="openCity(event, 'department')">DEPARTAMENTO</button>
+            <button class="tablinks" onclick="openCity(event, 'participant')">CHATS PARTICIPANTE</button>
+            <button class="tablinks" onclick="openCity(event, 'logs')">HISTORICO DE ACESSO</button><!--
+            -->         <button class="tablinks" onclick="openCity(event, 'roles')">PREVILEGIOS</button>
+
         </div>
         <center>
             <div id="sucess"><h4 style="color:green;">${sms}</h4></div>
         </center>
-        <div id="criar" class="tabcontent">
-             /// PUT YOUR CODE 
+
+        <div id="user" class="tabcontent">
+            /// user code here 
         </div>
 
-        <div id="consultar" class="tabcontent">
+        <div id="event" class="tabcontent">
+            /// event code here
+        </div>
+
+        <div id="activity" class="tabcontent">
             <center>
-               /// PUT YOUR CODE 
+                /// activity code here
             </center>
         </div>
 
-        <div id="funcionrio" class="tabcontent">
+        <div id="department" class="tabcontent">
             <center>
-                /// PUT YOUR CODE 
+                /// department here 
             </center>
         </div>
 
-        <div id="gerir" class="tabcontent">
+        <div id="participant" class="tabcontent">
             <center>
-                     /// PUT YOUR CODE 
-                        
+                /// participant code here
+
             </center>
         </div>
-                        
-              <div id="dis" class="tabcontent">
+
+        <div id="roles" class="tabcontent">
             <center>
-                /// PUT YOUR CODE 
+                   <form class="pure-form pure-form-stacked" action="ProcessaRole" method="post" style="width: 65%;">
+            <fieldset>
+                <div class="pure-g">
+                    
+                    <div class="pure-u-1 pure-u-md-1-3">
+                        <label for="desc">Descrição do Role</label>
+                        <input type="text" name="descricao" id="desc" class="pure-input-1-2" value="${eventos.descricao}" style="width: 95%; border-radius: 30px;"/>
+                                                     
+           
+                    </div>
+
+                </div>
+
+                <hr width="98%">
+                <button type="submit" class="pure-button pure-button-primary btn1" style="width: 23%; border-radius: 30px;" title="Aceitar" >Criar</button>
+                <button type="reset" class="pure-button pure-button-primary btn2" style="background-color: red; width: 23%; border-radius: 30px;" title="Limpar Dados" class="pure-button ">Limpar</button>
+            </fieldset>
+        </form>
+
             </center>
         </div>
-              
-            <div id="docs" class="tabcontent">
+
+        <div id="logs" class="tabcontent">
             <center>
-                 /// PUT YOUR CODE 
+                /// log code here 
             </center>
         </div>
-                            
+
     </div>
 </body>
 </html>

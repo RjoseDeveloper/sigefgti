@@ -35,7 +35,7 @@
                     <li class="pure-menu-item "><a href="planificarEvento.jsp" class="pure-menu-link" target="main" title="AREA DE CADASTRO" style="border-radius: 30px;" >AREA DE CADASTRO</a></li>
                     <li class="pure-menu-item "><a href="eventos.jsp" class="pure-menu-link" target="main" title="Eventos" style="border-radius: 30px;" >NOVO EVENTO</a></li>
     <li class="pure-menu-item "><a href="calendario.jsp" class="pure-menu-link" target="main" title="Eventos" style="border-radius: 30px;" >CALENDARIO</a></li>
-         <li class="pure-menu-item "><a href="calendario.jsp" class="pure-menu-link" target="main" title="Eventos" style="border-radius: 30px;" >ACESSOS</a></li>             
+    <li class="pure-menu-item "><a href="reports.jsp" class="pure-menu-link" target="main" title="Eventos" style="border-radius: 30px;" >RELATORIOS</a></li>             
     <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">                           
 
                     <li class="pure-menu-item"><a  class="pure-menu-link" href="sair.jsp" onclick="return sair()" target="index">SAIR</a>

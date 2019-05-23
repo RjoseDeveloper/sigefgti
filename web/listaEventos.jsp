@@ -172,34 +172,12 @@
         </script>
 
         <link rel="icon" type="icon/png" href="img/ucm.png" />
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/grids-responsive-old-ie-min.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/grids-responsive-min.css">
-        <!--<![endif]-->
-
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/marketing.css">
-        <!--<![endif]-->
-
         <link rel="icon" type="icon/png" href="img/ucm.png" />
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/grids-responsive-old-ie-min.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/grids-responsive-min.css">
-        <!--<![endif]-->
-
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/marketing.css">
-        <!--<![endif]-->
+       
     </head>
     <body>
               
