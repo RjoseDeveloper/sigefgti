@@ -1,11 +1,5 @@
-<%-- 
-    Document   : Area de Estudantes FGTI
-    Created on : Sep 20, 2018, 12:26:03 AM
-    Author     : Jaime Muaqueia
---%>
 
 <%@page import="java.util.List"%>
-
 <!doctype html>
 <html lang="pt">
     <head>
@@ -203,28 +197,20 @@
                     <br> <br>  <br>
                     
                     
-                    
+                    <jsp:include page="criarEvento"/>
                     <table id="customers" class="pure-table pure-table-horizontal"
                            style="border: none; width: 80%;">
                         <thead>
                             <tr>
-                                <th>details</th>
-                                <th>starttime</th>
-                                <th>endtime</th>
-                                <th>dateadded</th>
-                                <th>idactivity</th>
-                                <th>location</th>
-                                <th>relevance</th>
+                                <th>Evento</th>
+                                <th>Descrição</th>
+                                <th>Local-Realização</th>
+                                <th>Data</th>
+                                <th>Operacoes</th>
                             </tr>
                         </thead>
                         <tbody>
-                        <td><%=evt.details%></td>
-                        <td><%=evt.starttime%></td>
-                        <td><%=evt.endtime%></td>
-                        <td><%=evt.dateadded%></td>
-                        <td><%=evt.idactivity%></td>
-                        <td><%=evt.location%></td>
-                         <td><%=evt.relevance%></td>
+                          
                         </tbody>
                     </table>
                 </center>
